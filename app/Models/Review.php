@@ -11,7 +11,13 @@ class Review extends Model
 
     protected $table = 'reviews';
 
-
+    protected $fillable = [
+        'id',
+        'pelicula_id',
+        'calificacion',
+        'revision',
+        'username'
+    ];
 
     protected $hidden = [
         'created_at',
