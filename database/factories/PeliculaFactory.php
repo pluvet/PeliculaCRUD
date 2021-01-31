@@ -24,8 +24,8 @@ class PeliculaFactory extends Factory
     public function definition()
     {
         return [
-            'titulo' => $this->faker->title,
-            'genero' => $this->faker->company
+            'titulo' => '$this->faker->title',
+            'genero' => '$this->faker->company'
         ];
     }
 }
