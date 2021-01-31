@@ -3,7 +3,9 @@
 namespace Database\Factories;
 
 use App\Models\Pelicula;
+use Facade\Ignition\Support\FakeComposer;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Database\Eloquent\Factories\faker\generator;
 
 class PeliculaFactory extends Factory
 {
