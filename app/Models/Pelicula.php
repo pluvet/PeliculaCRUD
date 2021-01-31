@@ -12,6 +12,7 @@ class Pelicula extends Model
     protected $table = 'peliculas';
 
     protected $fillable=[
+        'id',
         'titulo',
         'genero'
     ];
